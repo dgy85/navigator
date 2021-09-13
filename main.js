@@ -1,6 +1,6 @@
 require.config({
 	urlArgs: `v=${app.version}`,
-	baseUrl: "js/lib"
+	baseUrl: "lib"
 });
 
 require(['jquery'], function ($) {

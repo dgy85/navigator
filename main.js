@@ -207,7 +207,7 @@ require(['jquery'], function ($) {
 	var bookMarkFn = function (ele, options) {
 		this.$ele = $(ele);
 		this.options = {
-			data: [{ "name": "精选", "url": "choice()", "icon": "icon/discover.png" },  { "name": "Bilibili", "url": "https://m.bilibili.com", "icon": "icon/bilibilibog.png" }, { "name": "知乎", "url": "https://www.zhihu.com", "icon": "icon/zhihu.png" }, { "name": "IT之家", "url": "https://m.ithome.com", "icon": "icon/ithome.png" }, { "name": "热榜", "url": "https://tophub.today", "icon": "icon/tophub.png" }, { "name": "观察者", "url": "https://m.guancha.cn/", "icon": "icon/pp93.png" }],
+			data: [{ "name": "精选", "url": "choice()", "icon": "icon/discover.png" },  { "name": "Bilibili", "url": "https://m.bilibili.com", "icon": "icon/bilibilibog.png" }, { "name": "IT之家", "url": "https://m.ithome.com", "icon": "icon/ithome.png" }, { "name": "热榜", "url": "https://tophub.today", "icon": "icon/tophub.png" }, { "name": "观察者", "url": "https://m.guancha.cn/", "icon": "icon/pp93.png" }],
 		};
 		this.options = $.extend({}, this.options, options);
 		this.init();
